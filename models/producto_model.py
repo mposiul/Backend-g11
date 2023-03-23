@@ -8,7 +8,7 @@ class Producto(conexion.Model):
     nombre = Column(type_=types.Text, nullable=False)
     precio = Column(type_=types.Float)
     imagen = Column(type_=types.Text)
-    categoriaId = Column(ForeignKey(Column='categorias.id'), type_=types.Integer, nullable=False, name='categoria_id')
+    categoriaId = Column(ForeignKey(column='categorias.id'), type_=types.Integer, nullable=False, name='categoria_id')
 
     created_at = Column(type_=types.DateTime, default=datetime.utcnow, name='createdAt')
 
