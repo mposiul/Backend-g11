@@ -1,0 +1,28 @@
+1. django-admin startproject veterinaria                => nuevo proyecto veterinaria
+2. pip freeze > requirements.txt                        => backup de requerimientos
+3. pip install -r requirements.txt                      => instalamos los requerimientos
+4. django-admin startproject veterinaria                => instalamos buevo proyecto veterinaria
+5. python manage.py startapp gestion                    => creamos una app nueva
+
+ py manage.py makemigrations gestion --name cree_tabla_usuario
+ py manage.py migrate gestion
+ py manage.py showmigrations
+ py manage.py migrate
+ pip install python-dotenv
+
+ py manage.py createsuperuser                           => Crea un super usuario
+ pip install cloudinary                                 => 
+
+python manage.py makemigrations gestion               = crea la tabla mascotas en memoria
+
+pip install djangorestframework-simplejwt             => instalar Json Web token
+1:45min
+
+ pip install django-cors-headers
+
+python manage.py migrate                            => cree_tabla_mascotas   
+
+02:48:00 Render Modulo de Backend G11 20230401
+1. New webservices
+2. pip install drf-yasg
+http://127.0.0.1:8000/swagger-doc/
