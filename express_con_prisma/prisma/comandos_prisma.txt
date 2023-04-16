@@ -1,0 +1,15 @@
+npx prisma init > crear un nuevo proyecto de prisma
+npx prisma migrate dev > crea una nueva migracion en base a los cambios realizados
+
+npm install express --save
+npm install --save-dev @types/express
+
+--Para desinstalar
+npm uninstall express
+npm uninstall @types/express
+
+npm i --save-dev nodemon
+
+npm run dev
+
+npx prisma migrate dev              => migracion con nombre agregue tabla productos
